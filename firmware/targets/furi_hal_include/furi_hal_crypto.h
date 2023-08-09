@@ -15,7 +15,7 @@ extern "C" {
 /** FuriHalCryptoKey Type */
 typedef enum {
     FuriHalCryptoKeyTypeMaster, /**< Master key */
-    FuriHalCryptoKeyTypeSimple, /**< Simple enencrypted key */
+    FuriHalCryptoKeyTypeSimple, /**< Simple unencrypted key */
     FuriHalCryptoKeyTypeEncrypted, /**< Encrypted with Master key */
 } FuriHalCryptoKeyType;
 
